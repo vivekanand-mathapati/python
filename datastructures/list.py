@@ -1,0 +1,20 @@
+lst = []
+print(type(lst))
+lst = list()
+print(type(lst))
+
+lst = [1,2,3,4]
+print(lst)
+lst.append(5)
+print(lst)
+lst.extend([6,7,8,9])
+print(lst)
+print(lst[0:-1])
+lst.remove(1)
+print(lst)
+print(lst.index(2))
+print(lst.count(7))
+print(max(lst))
+print(min(lst))
+print(sum(lst))
+print(lst.pop())
